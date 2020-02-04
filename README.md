@@ -1,4 +1,6 @@
-# Air Datepicker
+# Fork Air Datepicker for optimize with turbolinks 
+
+add setting body
 
 Lightweight customizable cross-browser jQuery datepicker, built with es5 and css-flexbox. Works in all modern desktop and mobile browsers (tested on Android 4.4+ and iOS8+).
 

@@ -106,6 +106,10 @@
 
         this.opts = $.extend(true, {}, defaults, options, this.$el.data());
 
+        if (this.opts.body) {
+            $body = $(this.opts.body);
+        }
+
         if ($body == undefined) {
             $body = $('body');
         }
