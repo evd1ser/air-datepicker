@@ -108,6 +108,8 @@
 
         if (this.opts.body) {
             $body = $(this.opts.body);
+            containerBuilt = false;
+
         }
 
         if ($body == undefined) {
